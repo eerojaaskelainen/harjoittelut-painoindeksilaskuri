@@ -6,6 +6,12 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
+	setlocale(LC_ALL, "");
+
+	Painoindeksilaskuri pi;
+
+	pi.Main();
+
 	return 0;
 }
 
